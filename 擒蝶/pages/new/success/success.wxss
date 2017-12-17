@@ -1,0 +1,76 @@
+.success{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #0ea8e3;
+}
+
+.tit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40rpx;
+  color: #fff;
+  height: 118rpx;
+}
+
+.panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 600rpx;
+  height: 500rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  color: #676767;
+}
+.task-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 36rpx;
+}
+.intro{
+  padding: 0rpx 0  0rpx;
+}
+.intro .pic{
+  width: 240rpx;
+  height: 240rpx;
+}
+.dot-line image{
+  width: 600rpx;
+  height: 30rpx;
+}
+
+.tips{
+  font-size: 32rpx;
+  padding: 0 45rpx;
+}
+
+.close{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+  color: #fff;
+  margin-top: 20rpx;
+}
+.close image{
+  width: 88rpx;
+  height: 88rpx;
+}
+.l-btn {
+  align: center ;
+    width: 100%;
+    float: left;
+    height: 64rpx;
+    line-height: 64rpx;
+    color: #FFFFFF;
+  
+}

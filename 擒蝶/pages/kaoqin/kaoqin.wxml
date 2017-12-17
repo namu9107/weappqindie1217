@@ -1,0 +1,36 @@
+<!--<view class="page">
+  <view class="page__hd">
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="button-sp-area">
+      <button class="weui-btn" type="primary" plain="true"><navigator url="/pages/lesson/" class="weui-btn">发起考勤</navigator></button>
+       <button class="weui-btn" type="primary" plain="true"><navigator url="/pages/lesson/" class="weui-btn">参与考勤</navigator></button>
+    </view>
+  </view>
+</view>-->
+<view class="page">
+  <block wx:for="{{core}}">
+    <view class="lesson-card">
+      <image src="/images/name.png" class="lesson-image"></image>
+      <view class="lesson-detail">
+        <view class="lesson-title">网络智能结算</view>
+        <view>
+          <view class="lesson-teacher">黄老师</view>
+          <view class="lesson-address">2A302</view>
+        </view>
+        <view class="lesson-time">周一第二大节</view>
+        <view class="lesson-button">
+          <view wx:if="{{item.status == 0}}">
+            <navigator url="/pages/first/first"><button class="l-btn" type="primary">考勤中</button></navigator>
+          </view>
+          <view wx:elif="{{item.status == 1}}">
+            <button class="l-btn" type="canyu">待考勤</button>
+          </view>
+          <view wx:else>
+            <button class="l-btn" type="canyu">待考勤</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

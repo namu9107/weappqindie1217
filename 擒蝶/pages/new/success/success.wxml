@@ -1,0 +1,24 @@
+<!-- 创建成功 -->
+<view class="success">
+    
+    <view class="tit">
+        <text>创建成功!</text>
+    </view>
+
+    <view class="panel">
+    <view class="intro">
+            <image class="pic" src="../../../images/add123.png"></image>
+        </view>
+        <view class="tips">
+            <text>查看考勤记录：</text>
+        </view>
+        <view><navigator url="/pages/record/record"><button class="l-btn" type="primary">考勤记录</button></navigator></view>
+                 <view class="dot-line">
+            <image src="../../../images/dot-line.png"></image>
+        </view>
+    </view>
+
+    <view class="close" bindtap="bindClose">
+        <image src="../../../images/success-close.png"></image>
+    </view>
+</view>

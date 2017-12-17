@@ -1,0 +1,11 @@
+<!--album.wxml-->
+ <view class="container">  
+<view class="flex-item bc_green" style="height:20px;width:10px;"></view>
+<text>当前出勤人数</text></view>
+<view class="circle bc_green" ><text class="text-style">78</text></view>
+<view class="container">
+<view class="flex-item bc_green" style="height:20px;width:10px;"></view>
+<text>未出勤人</text></view>
+<view class='text'><block><text>XX</text></block></view>
+<view class='text'><text>XX</text></view>
+<view class='anniu'><navigator url="/pages/location/location"><button class="l-btn" type="primary">我的位置</button></navigator></view>

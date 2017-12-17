@@ -1,0 +1,70 @@
+/* pages/kaoqin/kaoqin.wxss */
+/*.page__hd{
+    padding: 2em 0;
+}
+.page__title {
+    text-align: center;
+    font-size: 68rpx;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+}
+.page__desc {
+    text-align: center;
+    color: #888;
+    font-size: 28rpx
+}
+.page__bd {
+    margin: 10% 0;
+}
+.page__bd_spacing {
+    padding: 0 30rpx;
+}*/
+.lesson-card {
+    margin: 5%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px #D3DCE6;
+}
+
+.lesson-image {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 15rpx;
+  float: left;
+}
+
+.lesson-detail {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-teacher {
+    float: left;
+    margin-right: 12rpx;
+}
+
+.lesson-button {
+    margin-bottom: 5%;
+}
+
+.l-btn {
+    width: 45%;
+    float: left;
+    height: 64rpx;
+    line-height: 64rpx;
+    color: #FFFFFF;
+}
+
+.l-btn[type="primary"] {
+    background-color: #f7ba2a;
+}
+
+.l-btn[type="canyu"] {
+    background-color: lightskyblue;
+}
+.l-btn[type="faqi"] {
+    background-color: #20A0FF;
+}
+

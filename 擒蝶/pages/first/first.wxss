@@ -1,0 +1,39 @@
+.page__hd{
+    padding: 2em 0;
+}
+.page__title {
+    text-align: center;
+    font-size: 68rpx;
+    color: lightskyblue;
+    font-weight: 400;
+    margin: 0 15%;
+}
+.page__desc {
+    text-align: center;
+    color: #888;
+    font-size: 28rpx
+}
+.page__bd {
+    margin: 10% 0;
+}
+.page__bd_spacing {
+    padding: 0 30rpx;
+}
+.circle {
+  margin: 50px auto;
+  position:relative;
+  width:120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-content: flex-start;
+  background-color:lightskyblue;
+  text-align:center;
+  line-height: 120px;
+  }
+  .white{
+    color: white
+  }
+.weui-btn{
+  border-color:lightskyblue;
+  color: black
+}

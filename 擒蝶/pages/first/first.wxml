@@ -1,0 +1,14 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">擒蝶</view>
+    <view class="page__desc">高效，灵活，准确,智慧校园考勤</view>
+  </view>
+  <view class="circle bc_green" ><text class="white">剩余时间:{{second}}s </text></view>
+  <view class="page__bd page__bd_spacing">
+    <view class="button-sp-area">
+      <button class="weui-btn" bindtap="clickMe"  plain="true">上课考勤</button>
+       <button class="weui-btn" bindtap="clickMe1"  plain="true">下课考勤</button>
+       
+    </view>
+  </view>
+</view>
